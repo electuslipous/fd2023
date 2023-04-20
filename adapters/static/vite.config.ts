@@ -13,6 +13,7 @@ export default extendConfig(baseConfig, () => {
     plugins: [
       staticAdapter({
         origin: 'https://fd2023.netlify.app',
+        base:"/"
       }),
     ],
   };
