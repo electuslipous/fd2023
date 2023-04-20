@@ -12,7 +12,7 @@ export default extendConfig(baseConfig, () => {
     },
     plugins: [
       staticAdapter({
-        origin: 'https://localhost:5000',
+        origin: 'https://fd2023.netlify.app',
       }),
     ],
   };
