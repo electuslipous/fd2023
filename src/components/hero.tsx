@@ -27,7 +27,7 @@ export const Hero = component$(() => {
           <div class="flex-1 mb-1 sm:mb-0 sm:mr-8">
             <h2 class="text-4xl font-bold mb-4 text-white">Join us for a culinary adventure!</h2>
             <p class="text-xl mb-6 text-white">The International Food Day celebrates the diverse culture of the University of Debrecen with an array of delicious cuisines from all over the world.</p>
-            <a href="/tickets" class="bg-yellow-500 text-white py-2 px-6 rounded-full text-lg hover:bg-yellow-600 transition-colors duration-300">Get your tickets now!</a>
+            <Link href="/tickets" class="bg-yellow-500 text-white py-2 px-6 rounded-full text-lg hover:bg-yellow-600 transition-colors duration-300">Get your tickets now!</Link>
           </div>
         </div>
       </section>

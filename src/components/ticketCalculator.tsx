@@ -1,9 +1,9 @@
 import { component$, useSignal } from '@builder.io/qwik';
 
 export const TicketCalculator = component$(() => {
-    const ticketCount = useSignal(0)
+    const ticketCount = useSignal("")
     const ticketPrice = 500
-    const total = ticketPrice * ticketCount.value
+    const total = ticketPrice * parseInt(ticketCount.value)
 
     return (
         <>
